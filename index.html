@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitra Aquatic</title>
+    <link rel="icon" href="img/mitra-aquatic.png" />
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <!-- CSS local -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="transition: 0.6s">
+      <div class="container">
+        <img src="img/mitra-aquatic.png" style="width: 60px" alt="Logo" />
+        <span class="fs-3 fw-bolder d-none d-xl-block text-light">Mitra Aquatic</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#about-us">Tentang Kami</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#product">Produk</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#testimony">Testimoni</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#contact">Kontak</a>
+            </li>
+          </ul>
+          <form class="d-flex shadow">
+            <input class="form-control me-1 border border-dark" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-warning text-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">Selamat Datang Di <span class="fw-bold">Mitra Aquatic</span></h1>
+      <h2 data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
+        Kami Menyediakan :
+        <br />
+        <span class="type text-warning"></span>
+      </h2>
+      <section>
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+        <div class="wave wave-4"></div>
+      </section>
+    </div>
+    <!-- Jumbotron End -->
+
+    <!-- About Us -->
+    <section id="about-us">
+      <div class="container">
+        <div class="row text-center mt-5">
+          <div class="col mt-3">
+            <h2>Tentang Kami</h2>
+            <div class="line" data-aos="fade-up" data-aos-once="false" data-aos-duration="2000"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 mt-3 mb-3">
+            <img src="img/mitra-aquatic-banners.jpeg" class="img-fluid" alt="About Us" />
+          </div>
+          <div class="col-12 mt-3 mb-3">
+            <iframe
+              class="border border-primary"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6233184942007!2d110.08101361431736!3d-6.935543569816841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70436b7d68a64f%3A0xeceddf524bdb14ce!2sMitra%20Aquatic!5e0!3m2!1sid!2sid!4v1644928566280!5m2!1sid!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Product -->
+    <section id="product" style="background-color: #e8eaeb">
+      <div class="container">
+        <div class="row text-center mt-5">
+          <div class="col mt-3">
+            <h2>Produk</h2>
+            <div class="line" data-aos="fade-up" data-aos-once="false" data-aos-duration="2000"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3 pb-5">
+          <div class="col-md-4 mt-3 mb-3">
+            <div class="card" style="cursor: pointer">
+              <a href="#"><img src="image-product/ikan-hias.jpg" class="card-img-top" alt="product-1" /></a>
+              <div class="card-body">
+                <h5 class="card-title">Ikan Hias</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <div class="card" style="cursor: pointer">
+              <a href="#"><img src="image-product/auranti.jpg" class="card-img-top" alt="product-2" /></a>
+              <div class="card-body">
+                <h5 class="card-title font-">Ikan Predator</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <div class="card" style="cursor: pointer">
+              <a href="#"><img src="image-product/aquarium-peralatan.png" class="card-img-top" alt="product-3" /></a>
+              <div class="card-body">
+                <h5 class="card-title">Perlengkapan Aquarium</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mb-3">
+            <div class="card" style="cursor: pointer">
+              <a href="#"><img src="image-product/bibit-lele.jpg" class="card-img-top" alt="product-4" /></a>
+              <div class="card-body">
+                <h5 class="card-title">Bibit Lele</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product End -->
+
+    <!-- Testimony -->
+    <section id="testimony">
+      <div class="container">
+        <div class="row text-center mt-5">
+          <div class="col">
+            <h2>Testimoni Pembeli</h2>
+            <div class="line" data-aos="fade-up" data-aos-once="false" data-aos-duration="2000"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div class="col">
+            <div id="carouse_testimony" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item text-center active" data-bs-interval="5000">
+                  <img src="testimony/testi-1.jpg" class="d-block mx-auto img-fluid rounded mt-5" style="width: 400px" alt="Testimony" />
+                  <h5 class="mt-3 mb-2">Anya Geraldine</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veritatis.</p>
+                </div>
+                <div class="carousel-item text-center" data-bs-interval="5000">
+                  <img src="testimony/testi-2.jpg" class="d-block mx-auto img-fluid rounded mt-5" style="width: 400px" alt="Testimony" />
+                  <h5 class="mt-3 mb-2">Wika Salim</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis!</p>
+                </div>
+                <div class="carousel-item text-center" data-bs-interval="5000">
+                  <img src="testimony/testi-3.jpg" class="d-block mx-auto img-fluid rounded mt-5" style="width: 400px" alt="Testimony" />
+                  <h5 class="mt-3 mb-2">Dedy</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut.</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouse_testimony" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon d-none d-md-block" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouse_testimony" data-bs-slide="next">
+                <span class="carousel-control-next-icon d-none d-md-block" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimony End -->
+
+    <!-- Contact -->
+    <section id="contact" class="shadow" style="background-color: #f4e60d">
+      <div class="container-fluid">
+        <div class="row text-center mt-5">
+          <div class="col mt-3">
+            <h2>Kontak</h2>
+            <div class="line" data-aos="fade-up" data-aos-once="false" data-aos-duration="2000"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center fs-1 mt-3 pb-3">
+          <div class="col-md-5">
+            <img src="img/mitra-aquatic.png" class="img-fluid" style="width: 200px" alt="Mitra Aquatic" />
+            <h1>Order? Chat WhatsApp Saja😁</h1>
+          </div>
+          <div class="col-md-7">
+            <div class="row justify-content-center" style="margin-top: 5rem">
+              <div class="col-3">
+                <a href="#"><img src="icon/facebook.png" class="img-fluid rounded-circle" alt="Facebook" /></a>
+                <p class="fs-5 d-none d-sm-block" style="font-weight: 500">Facebook</p>
+              </div>
+              <div class="col-3">
+                <a href="#"><img src="icon/instagram.png" class="img-fluid rounded-circle" alt="instagram" /></a>
+                <p class="fs-5 d-none d-sm-block" style="font-weight: 500">Instagram</p>
+              </div>
+              <div class="col-3">
+                <a href="#"><img src="icon/whatsapp.png" class="img-fluid rounded-circle" alt="WhatsApp" /></a>
+                <p class="fs-5 d-none d-sm-block" style="font-weight: 500">WhatsApp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #05081f">
+      <div class="container">
+        <div class="row pt-4 pb-4 ms-2 fw-bold text-light">&copy Teguh R .2021 ❤</div>
+      </div>
+    </footer>
+    <!-- Contact End -->
+
+    <!-- Bundle Bootstrap -->
+    <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+    <!-- Bundle Bootstrap End -->
+
+    <!-- Navbar Scroll -->
+    <script>
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 80) {
+          nav.classList.add('background-navbar', 'shadow');
+        } else {
+          nav.classList.remove('background-navbar', 'shadow');
+        }
+      });
+    </script>
+    <!-- Navbar Scroll End -->
+
+    <!-- Typed -->
+    <script src="js/typed.js"></script>
+    <script>
+      var typed = new Typed('.type', {
+        strings: ['Ikan Hias', 'Pakan Ikan', 'Perlengkapan Aquarium'],
+
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+    <!-- Typed End-->
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <!-- Aos End -->
+  </body>
+</html>
